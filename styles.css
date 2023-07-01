@@ -1,0 +1,162 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+  }
+  
+  .navbar {
+    background-color: #f8f9fa;
+    padding: 10px;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .movies-table {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #f8f9fa;
+  }
+  
+  table td {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .movies-table img {
+    width: 100px;
+  }
+  
+  /* CSS Styles for the Add Movie form */
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label,
+  input,
+  select {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #e6e6e6;
+}
+td img {
+    width: 150px;
+    height: auto;
+    transition: transform 0.3s;
+}
+td img:hover {
+    transform: scale(1.1);
+}
+table {
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+/* CSS Styles for Dynamic Elements */
+
+/* Success message */
+.success-message {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Error message */
+  .error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Active navbar link */
+  .navbar .nav-link.active {
+    font-weight: bold;
+  }
+  
+  /* Dropdown menu */
+  .dropdown-menu {
+    background-color: #f8f9fa;
+    border: none;
+    padding: 10px;
+  }
+  
+  .dropdown-menu .dropdown-item {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .dropdown-menu .dropdown-item:hover {
+    background-color: #e9ecef;
+  }
+  
+  /* Search form */
+  .d-flex {
+    align-items: center;
+  }
+  
+  input[type="search"] {
+    padding: 5px;
+    width: 200px;
+  }
+  
+  .btn-outline-success {
+    margin-left: 10px;
+  }
+  
+  /* Responsive table */
+  @media screen and (max-width: 600px) {
+    table {
+      font-size: 14px;
+    }
+    
+    .movies-table img {
+      width: 80px;
+    }
+  }
+  
